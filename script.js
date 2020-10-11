@@ -18,6 +18,13 @@ function validate()
    state=f1.state.value;
 
    pincode=f1.pinCode.value; 
+    
+    height=f1.height.value;
+
+   weight=f1.weight.value;
+
+   bmi=f1.bmi.value;
+
 
   
 
@@ -29,7 +36,7 @@ function validate()
 
      regpin=/^[0-9]{6}$/;
     regaddress=/^[a-zA-Z0-9\s,.'-]{3,}$/;
-
+ regheight=/^[0-9]{2,3}$/
   
 
   if(!regname.test(firstname))
@@ -56,6 +63,30 @@ function validate()
       return false;
   }
 
+  if(!regheight.test(height))
+  {
+     
+      alert("Plz enter the valid height");
+
+      return false;
+  }
+
+  if(!regheight.test(weight))
+  {
+     
+      alert("Plz enter the valid weight");
+
+      return false;
+  }
+  
+  if(!regheight.test(bmi))
+  {
+     
+      alert("Plz enter the valid bmi");
+
+      return false;
+  }
+  
   
   
 
