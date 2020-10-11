@@ -62,6 +62,38 @@ function validate()
 
       return false;
   }
+    
+    if(!regname.test(city))
+  {
+     
+      alert("Plz enter the valid city");
+
+      return false;
+  }
+
+  if(!regname.test(state))
+  {
+     
+      alert("Plz enter the valid state");
+
+      return false;
+  }
+
+  if(!regaddress.test(address))
+  {
+     
+      alert("Plz enter the valid address");
+
+      return false;
+  }
+
+  if(!regpin.test(pincode))
+  {
+     
+      alert("Plz enter the valid pincode");
+
+      return false;
+  }
 
   if(!regheight.test(height))
   {
