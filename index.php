@@ -53,6 +53,32 @@
 					<label for="inputAge">Age: </label>
 					<input type="number" id="inputAge" min="16" max="50" placeholder="Age" name="age" class="form-control" required="required">
 				</div>
+                <div class="form-group">
+					<label for="inputGender">Gender: </label>
+					<select class="form-control" id="inputGender" name="sex">
+						<option>Male</option>
+						<option>Female</option>
+					</select>
+				</div>
+
+				<hr style="margin: 30px auto;">
+
+				<h4><p style="text-align:center; background-color: #1a7e00; padding: 10px; color: #ffffff; margin: auto 0px; border-radius: 0.25rem;">Address Details</p></h4>
+
+				<div class="form-group">
+					<label for="inputAddress">Address: </label>
+					<input type="text" id="inputAddress" placeholder="Example: House No., Locality"  name="address" class="form-control" required="required">
+				</div>
+
+				<div class="form-group">
+					<label for="inputCity">City: </label>
+					<input type="text" id="inputCity" placeholder="City" name="city" class="form-control" required="required">
+				</div>
+
+				<div class="form-group">
+					<label for="inputState">State: </label>
+					<input type="text" id="inputState" placeholder="State" name="state" class="form-control" required="required">
+				</div>
 				
 				
 
