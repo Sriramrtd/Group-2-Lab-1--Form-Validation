@@ -53,7 +53,8 @@
 					<label for="inputAge">Age: </label>
 					<input type="number" id="inputAge" min="16" max="50" placeholder="Age" name="age" class="form-control" required="required">
 				</div>
-                <div class="form-group">
+				
+				<div class="form-group">
 					<label for="inputGender">Gender: </label>
 					<select class="form-control" id="inputGender" name="sex">
 						<option>Male</option>
@@ -79,8 +80,48 @@
 					<label for="inputState">State: </label>
 					<input type="text" id="inputState" placeholder="State" name="state" class="form-control" required="required">
 				</div>
+
+				<div class="form-group">
+					<label for="inputPinCode">Pin Code: </label>
+					<input type="text" id="inputPinCode" placeholder="Pin Code" name="pinCode" class="form-control" required="required">
+				</div>
 				
+				<hr style="margin: 30px auto;">
+
+				<h4><p style="text-align:center; background-color: #005a86; padding: 10px; color: #ffffff; margin: auto 0px; border-radius: 0.25rem;">Health Details</p></h4>
+                             
+                                    
+				<div class="form-group">
+					<label for="inputHeight">Height: </label>
+					<input type="number" id="inputHeight" min="1" max="250" placeholder="Height in cm only" name="height" class="form-control" required="required">
+				</div>
+
+				<div class="form-group">
+					<label for="inputWeight">Weight: </label>
+                                        <input type="number" id="inputWeight" min="1" max="150" placeholder="Weight in kg only" name="weight" class="form-control" required="required" onBlur="calculateBmi()">
+				</div>
+                               
+				<div class="form-group">
+					<label for="inputBMI">BMI: </label>
+					<input type="number" id="inputBMI" min="1" max="50" placeholder="BMI" name="bmi" class="form-control" value="" required="required">
+				</div>
 				
+				<hr style="margin: 30px auto;">
+
+				<div class="form-group">
+					    <label for="uploadPhoto">Upload Photo:</label>
+				        <input type="file" name="file"  class="btn btn-style btn-block">
+						<button type="submit" name="upload" class="btn">UPLOAD</button>
+					
+				</div>
+
+				<br>
+				
+				<div class="row">
+					<div class="col text-center">
+				        <input type="submit" name="submit" value="Register" class="btn btn-style btn-block">
+					</div>
+				</div>
 
 				
 
