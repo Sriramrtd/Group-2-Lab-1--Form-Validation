@@ -10,6 +10,14 @@ function validate()
 
 
    age=f1.age.value;
+    
+    address=f1.address.value;
+
+   city=f1.city.value;
+
+   state=f1.state.value;
+
+   pincode=f1.pinCode.value; 
 
   
 
@@ -18,6 +26,9 @@ function validate()
   regphone=/^[0-9]{10}$/;
 
   regage=/^[0-9]{2}$/;
+
+     regpin=/^[0-9]{6}$/;
+    regaddress=/^[a-zA-Z0-9\s,.'-]{3,}$/;
 
   
 
